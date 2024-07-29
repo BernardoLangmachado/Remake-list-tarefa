@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFAF0; /* Cor de fundo pastel (um tom de bege) */
+  font-family: Arial, sans-serif;
+  color: #5F6368; /* Tom suave de cinza para o texto */
+  margin-top: 120px;
+}
+
+.center {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F5F5DC; /* Outro tom pastel (um tom de marfim) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo h1 {
+  color: #5F6368; /* Tom suave de cinza */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.input-lista {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  background-color: #FFFAF0; /* Cor de fundo pastel */
+}
+
+.add {
+  width: 25%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFDAB9; /* Cor pastel para o botão */
+  color: #5F6368; /* Tom suave de cinza */
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #FFE4B5; /* Variante mais clara da cor pastel */
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+}
+
+.itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  background-color: #FFFAF0; /* Cor de fundo pastel */
+}
+
+.itens span {
+  flex-grow: 1;
+}
+
+.itens div {
+  display: flex;
+  gap: 10px;
+}
+
+.concluir, .excluir {
+  padding: 5px;
+  cursor: pointer;
+}
+
+svg {
+  fill: #5F6368; /* Tom suave de cinza para os ícones */
+}
